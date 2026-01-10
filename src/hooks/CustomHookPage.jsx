@@ -1,4 +1,4 @@
-import { useLocalStorage } from "./useLocalStorage.js";
+import { useLocalStorage } from "../hooks/useLocalStorage.js";
 
 export default function CustomHookPage() {
   const [name, setName] = useLocalStorage("name", "");
@@ -6,7 +6,7 @@ export default function CustomHookPage() {
 
   return (
     <section>
-      <h2>Custom hook | useLocalStorage</h2>
+      <h2>Custom hook – useLocalStorage</h2>
 
       <label>
         Name:
