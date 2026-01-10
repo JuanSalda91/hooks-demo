@@ -5,7 +5,7 @@ import TimerPage from "./pages/TimerPage.jsx";
 import TodoPage from "./pages/TodoPage.jsx";
 import ThemePage from "./pages/ThemePage.jsx";
 import ReducerPage from "./pages/ReducerPage.jsx";
-import CustomHookPage from "./pages/CustomHookPage.jsx";
+import CustomHookPage from "./hooks/CustomHookPage.jsx";
 
 function App() {
   return (
