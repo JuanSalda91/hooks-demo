@@ -1,5 +1,5 @@
 import { ThemeProvider } from "./context/ThemeContext.jsx";
-import ReactDOM from "reacr-dom/client";
+import ReactDOM from "react-dom/client";
 import { BrowserRouter } from "react-router-dom";
 import App from "./App.jsx";
 
