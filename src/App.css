@@ -1,0 +1,18 @@
+/* src/index.css */
+
+.theme-light {
+  background-color: #ffffff;
+  color: #222222;
+  min-height: 100vh;
+}
+
+.theme-dark {
+  background-color: #222222;
+  color: #ffffff;
+  min-height: 100vh;
+}
+
+/* make the app content readable */
+.app {
+  padding: 1rem;
+}
